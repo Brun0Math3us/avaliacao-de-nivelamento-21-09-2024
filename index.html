@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inscrição Nubank</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="imge/x-icon" href="icon-nubank.png">
+    </head>
+    <body>
+        <header>
+            <h1>Inscrição para uma conta Nubank</h1>
+            <img src="nubank.png" alt="Nubank">
+        </header>
+        <main>
+            <section id="video">
+                <p>tutorial em video abaixo:</p>
+                <iframe id="tutorial" width="560" height="315" src="https://www.youtube.com/embed/OnAaD_5dlkU?si=AF_19yqQ3xaOzK5f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+
+            <form action="#">
+                <label for="nome">nome:</label>
+                <input type="text" name="nome" id="nome">
+
+                <label for="email">email:</label>
+                <input type="email" name="email" id="email">
+
+                <label for="telefone">telefone:</label>
+                <input type="tel" name="telefone" id="telefone" maxlength="13" placeholder="     ex: (xx) xxxxx.xxxx">
+
+                <label for="dúvidas">dúvidas:</label>
+                <textarea name="dúvidas" id="dúvidas" rows="3" cols="30"></textarea>
+
+                <input type="button" value="enviar" id="enviar">
+            </form>
+        </main>
+        <footer>
+            &copy; 2024 Inscrição Nubank by Bruno Matheus Benedett
+        </footer>
+    </body>
+</html>
